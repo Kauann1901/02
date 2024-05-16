@@ -1,0 +1,68 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.quadradogrande{
+    background-color: aqua;
+    width: 370px;
+    height: 370px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.high{
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+}
+.quadrado1{
+    display: flex;
+    align-items: flex-start;
+}
+.quadrado2{
+    display: flex;
+    justify-content: center;
+}
+.quadrado3{
+    display: flex;
+    justify-content: flex-end;
+}
+.quadrado4{
+    display: flex;
+    align-items: center;
+}
+.quadrado5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado6{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.quadrado7{
+    display: flex;
+    align-items: flex-end
+}
+.quadrado8{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.quadrado9{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
